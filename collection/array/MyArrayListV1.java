@@ -37,7 +37,7 @@ public class MyArrayListV1 {
 
     public int indexOf(Object o){
         for(int i =0; i< size; i++){
-            if(o.equals(elementData[i])){//인수와 같은 데이터가 있는 인덱스의 위치 반환환
+            if(o.equals(elementData[i])){//인수와 같은 데이터가 있는 인덱스의 위치 반환함
                 return i;
             }
         }
